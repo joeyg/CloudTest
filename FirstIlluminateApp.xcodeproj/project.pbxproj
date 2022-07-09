@@ -40,8 +40,8 @@
 		57E3EA8C28781F7500B33725 /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
 		57E3EA8D28781F7500B33725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57E3EA8E28781F7600B33725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		57E3EA9328781F7600B33725 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		57E3EA9928781F7600B33725 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E3EA9328781F7600B33725 /* FirstIlluminateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstIlluminateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E3EA9928781F7600B33725 /* FirstIlluminateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstIlluminateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E3EA9B28781F7600B33725 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		57E3EAA028781F7600B33725 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E3EAA428781F7600B33725 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 		57E3EA9428781F7600B33725 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57E3EA9328781F7600B33725 /* FirstApp.app */,
-				57E3EA9928781F7600B33725 /* FirstApp.app */,
+				57E3EA9328781F7600B33725 /* FirstIlluminateApp.app */,
+				57E3EA9928781F7600B33725 /* FirstIlluminateApp.app */,
 				57E3EAA028781F7600B33725 /* Tests iOS.xctest */,
 				57E3EAAC28781F7600B33725 /* Tests macOS.xctest */,
 			);
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57E3EA9228781F7600B33725 /* FirstApp (iOS) */ = {
+		57E3EA9228781F7600B33725 /* FirstIlluminateApp (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57E3EABC28781F7600B33725 /* Build configuration list for PBXNativeTarget "FirstApp (iOS)" */;
+			buildConfigurationList = 57E3EABC28781F7600B33725 /* Build configuration list for PBXNativeTarget "FirstIlluminateApp (iOS)" */;
 			buildPhases = (
 				57E3EA8F28781F7600B33725 /* Sources */,
 				57E3EA9028781F7600B33725 /* Frameworks */,
@@ -156,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = "FirstApp (iOS)";
+			name = "FirstIlluminateApp (iOS)";
 			productName = "FirstApp (iOS)";
-			productReference = 57E3EA9328781F7600B33725 /* FirstApp.app */;
+			productReference = 57E3EA9328781F7600B33725 /* FirstIlluminateApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		57E3EA9828781F7600B33725 /* FirstApp (macOS) */ = {
+		57E3EA9828781F7600B33725 /* FirstIlluminateApp (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57E3EABF28781F7600B33725 /* Build configuration list for PBXNativeTarget "FirstApp (macOS)" */;
+			buildConfigurationList = 57E3EABF28781F7600B33725 /* Build configuration list for PBXNativeTarget "FirstIlluminateApp (macOS)" */;
 			buildPhases = (
 				57E3EA9528781F7600B33725 /* Sources */,
 				57E3EA9628781F7600B33725 /* Frameworks */,
@@ -173,9 +173,9 @@
 			);
 			dependencies = (
 			);
-			name = "FirstApp (macOS)";
+			name = "FirstIlluminateApp (macOS)";
 			productName = "FirstApp (macOS)";
-			productReference = 57E3EA9928781F7600B33725 /* FirstApp.app */;
+			productReference = 57E3EA9928781F7600B33725 /* FirstIlluminateApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		57E3EA9F28781F7600B33725 /* Tests iOS */ = {
@@ -240,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 57E3EA8A28781F7500B33725 /* Build configuration list for PBXProject "FirstApp" */;
+			buildConfigurationList = 57E3EA8A28781F7500B33725 /* Build configuration list for PBXProject "FirstIlluminateApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57E3EA9228781F7600B33725 /* FirstApp (iOS) */,
-				57E3EA9828781F7600B33725 /* FirstApp (macOS) */,
+				57E3EA9228781F7600B33725 /* FirstIlluminateApp (iOS) */,
+				57E3EA9828781F7600B33725 /* FirstIlluminateApp (macOS) */,
 				57E3EA9F28781F7600B33725 /* Tests iOS */,
 				57E3EAAB28781F7600B33725 /* Tests macOS */,
 			);
@@ -336,12 +336,12 @@
 /* Begin PBXTargetDependency section */
 		57E3EAA228781F7600B33725 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57E3EA9228781F7600B33725 /* FirstApp (iOS) */;
+			target = 57E3EA9228781F7600B33725 /* FirstIlluminateApp (iOS) */;
 			targetProxy = 57E3EAA128781F7600B33725 /* PBXContainerItemProxy */;
 		};
 		57E3EAAE28781F7600B33725 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57E3EA9828781F7600B33725 /* FirstApp (macOS) */;
+			target = 57E3EA9828781F7600B33725 /* FirstIlluminateApp (macOS) */;
 			targetProxy = 57E3EAAD28781F7600B33725 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -477,8 +477,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = build.illuminate.FirstApp;
-				PRODUCT_NAME = FirstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = build.illuminate.FirstIlluminateApp;
+				PRODUCT_NAME = FirstIlluminateApp;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -507,8 +507,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = build.illuminate.FirstApp;
-				PRODUCT_NAME = FirstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = build.illuminate.FirstIlluminateApp;
+				PRODUCT_NAME = FirstIlluminateApp;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -538,7 +538,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = build.illuminate.FirstApp;
-				PRODUCT_NAME = FirstApp;
+				PRODUCT_NAME = FirstIlluminateApp;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -566,7 +566,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = build.illuminate.FirstApp;
-				PRODUCT_NAME = FirstApp;
+				PRODUCT_NAME = FirstIlluminateApp;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -655,7 +655,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57E3EA8A28781F7500B33725 /* Build configuration list for PBXProject "FirstApp" */ = {
+		57E3EA8A28781F7500B33725 /* Build configuration list for PBXProject "FirstIlluminateApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57E3EABA28781F7600B33725 /* Debug */,
@@ -664,7 +664,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57E3EABC28781F7600B33725 /* Build configuration list for PBXNativeTarget "FirstApp (iOS)" */ = {
+		57E3EABC28781F7600B33725 /* Build configuration list for PBXNativeTarget "FirstIlluminateApp (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57E3EABD28781F7600B33725 /* Debug */,
@@ -673,7 +673,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57E3EABF28781F7600B33725 /* Build configuration list for PBXNativeTarget "FirstApp (macOS)" */ = {
+		57E3EABF28781F7600B33725 /* Build configuration list for PBXNativeTarget "FirstIlluminateApp (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57E3EAC028781F7600B33725 /* Debug */,

@@ -29,6 +29,10 @@ class Tests_iOS: XCTestCase {
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testFlaky() throws {
+        XCTAssertEqual(["hi", "bye"].randomElement(), "hi")
+    }
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
